@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lesson Girls IT</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Hello students!</h1>
+
+  <label for="display-text">Display text: </label>
+  <input type="text" id="display-text" value="Hello students!" placeholder="Any text">
+
+  <hr>
+
+  <label for="font-size">Font size: </label>
+  <input type="number" min="5" max="50" id="font-size" value="32">
+
+  <hr>
+
+  <label for="text-color">Text color: </label>
+  <input type="color" id="text-color" value="#000000">
+
+  <hr>
+
+  <label for="font-family">Font Family</label>
+  <select id="font-family">
+    <option value="Times New Roman, serif" selected>Times New Roman</option>
+    <option value="Arial, sans-serif">Arial</option>
+    <option value="Impact, sans-serif">Impact</option>
+  </select>
+
+  <hr>
+
+  <input type="checkbox" id="text-bold" checked>
+  <label for="text-bold">Bold</label>
+  <input type="checkbox" id="text-italic">
+  <label for="text-italic">Italic</label>
+  <input type="checkbox" id="text-underline">
+  <label for="text-underline">Underline</label>
+
+  <hr>
+
+  <input type="radio" name="text-transform" id="text-none" value="none" checked>
+  <label for="text-none">None</label>
+  <input type="radio" name="text-transform" value="uppercase" id="text-uppercase">
+  <label for="text-uppercase">UPPERCASE</label>
+  <input type="radio" name="text-transform" value="lowercase" id="text-lowercase">
+  <label for="text-lowercase">Lowercase</label>
+  <input type="radio" name="text-transform" value="capitalize" id="text-capitalize">
+  <label for="text-capitalize">Capitlize</label>
+
+  <script src="./script.js"></script>
+</body>
+</html>
